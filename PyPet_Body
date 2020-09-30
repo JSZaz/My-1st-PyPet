@@ -1,0 +1,21 @@
+print("Welcome to Pypet") 
+
+name = "Lucky"
+age = 1
+weight = 3.5
+hungry = True 
+photo = "(=^o.o^=)__"
+
+cat = {
+  'name': 'Lucky',
+  'age': 1,
+  'weight': 3.5, 
+  'hungry': True, 
+  'photo': '(=^o.o^=)__',  
+
+} 
+
+print('Hello, ' + cat ['name'])
+print(cat ['photo']) 
+
+print(cat) 
